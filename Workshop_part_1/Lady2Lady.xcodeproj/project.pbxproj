@@ -14,6 +14,7 @@
 		0E26F2E52107B51700FA8C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E26F2E32107B51700FA8C3C /* LaunchScreen.storyboard */; };
 		0E26F2F02107B51700FA8C3C /* Lady2LadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26F2EF2107B51700FA8C3C /* Lady2LadyTests.swift */; };
 		0E26F2FB2107B51700FA8C3C /* Lady2LadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26F2FA2107B51700FA8C3C /* Lady2LadyUITests.swift */; };
+		0E4C5D04210F8B7900F30A6F /* MyDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C5D03210F8B7900F30A6F /* MyDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0E26F2F62107B51700FA8C3C /* Lady2LadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lady2LadyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E26F2FA2107B51700FA8C3C /* Lady2LadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lady2LadyUITests.swift; sourceTree = "<group>"; };
 		0E26F2FC2107B51700FA8C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4C5D03210F8B7900F30A6F /* MyDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0E26F2E12107B51700FA8C3C /* Assets.xcassets */,
 				0E26F2E32107B51700FA8C3C /* LaunchScreen.storyboard */,
 				0E26F2E62107B51700FA8C3C /* Info.plist */,
+				0E4C5D03210F8B7900F30A6F /* MyDataProvider.swift */,
 			);
 			path = Lady2Lady;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				0E26F2DD2107B51600FA8C3C /* ViewController.swift in Sources */,
 				0E26F2DB2107B51600FA8C3C /* AppDelegate.swift in Sources */,
+				0E4C5D04210F8B7900F30A6F /* MyDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

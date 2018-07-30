@@ -21,9 +21,22 @@ class Lady2LadyTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGetMyName() {
+        var dataProvider = MyDataProvider()
+        var name = dataProvider.getName()
+        XCTAssertEqual(name, "Sally")
+    }
+    
+    func testGetMyEmail(){
+        var dataProvider = MyDataProvider()
+        var email = dataProvider.getEmail()
+        XCTAssertEqual(email, "sally@me.com")
+    }
+    
+    func testGetMyNotes(){
+        var dataProvider = MyDataProvider()
+        var notes = dataProvider.getNotes()
+        XCTAssertEqual(notes, "Notes about Sally")
     }
     
     func testPerformanceExample() {
